@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load the trained model
-model_path = "oral_cancer_classification_model.h5"
+model_path = "./oral_cancer_classification_model.h5"
 model = tf.keras.models.load_model(model_path)
 
 # Parameters
